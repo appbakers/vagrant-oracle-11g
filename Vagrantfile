@@ -5,7 +5,7 @@ Vagrant.configure("2") do |config|
 
 #  config.vm.box = "oraclelinux-6-x86_64"
 #  config.vm.box_url = "http://cloud.terry.im/vagrant/oraclelinux-6-x86_64.box"
-  config.vm.box = "bento/centos-6.7"
+  config.vm.box = "centos68"
   config.vm.hostname = "oracle"
 
   config.ssh.forward_x11=true
